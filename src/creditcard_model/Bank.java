@@ -34,8 +34,8 @@ public class Bank {
         this.name = name;
     }
 
-    public void setCreditCards(List<CreditCard> creditCards) {
-        this.creditCards = creditCards;
+    public void addCreditCard(CreditCard creditCard) {
+        this.getCreditCards().add(creditCard);
     }
 
 }

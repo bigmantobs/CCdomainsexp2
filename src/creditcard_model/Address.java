@@ -48,4 +48,8 @@ public class Address {
         this.inhabitants = inhabitants;
     }
 
+    public void addInhabitants(Person person) {
+        this.inhabitants.add(person);
+    }
+
 }
